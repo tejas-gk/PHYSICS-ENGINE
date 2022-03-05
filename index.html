@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUNCING BALL SIMULATION</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">BOUNCING BALL</a>
+      <form class="form-inline my-2 my-lg-0 mx-2">
+        <input class="form-control mr-sm-2" type="text" placeholder="wind Value        MAX 0.9" id="stop_wind_value_value">
+        <button type="button" class="btn btn-dark" onclick="stop_wind_value();">WIND</button>
+      </form>
+      <form class="form-inline my-2 my-lg-0 mx-2">
+        <input class="form-control mr-sm-2" type="text" placeholder="Mass Value        MAX 0.9" id="mass_value">
+        <button type="button" class="btn btn-dark" onclick="massvalue();">Mass</button>
+      </form>
+      <form class="form-inline my-2 my-lg-0 mx-2">
+        <input class="form-control mr-sm-2" type="text" placeholder="Gravity Value      MAX 10" aria-label="Search" id="gravity_value">
+        <button type="button" class="btn btn-dark" onclick="gravityvalue();">Gravity</button>
+      </form>
+      <form class="form-inline my-2 my-lg-0 mx-2">
+        <input class="form-control mr-sm-2" type="text" placeholder="Size Value" aria-label="Search" id="size_value">
+        <button type="button" class="btn btn-dark"  onclick="sizevalue();">Size</button>
+      </form>
+    </nav>
+
+  <br>
+    <script src="p5.js"></script>
+    <script src="sketch.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+
+  </body>
+</html>
