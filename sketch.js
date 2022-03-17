@@ -143,3 +143,10 @@ function gravityvalue() {
 function sizevalue() {
     radius = document.getElementById('size_value').value;
 }
+
+function reload(){
+  location.reload();
+}
+
+
+
